@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0sp" android:textColor="#ff4e4e4e" android:gravity="center" android:layout_gravity="center" android:id="@id/textView4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="یکی از راه های رفع ریپورت، ارسال ایمیل به پشتیبانی تلگرام  است. \n برای اینکار لازم است یک حساب ایمیل داشته باشید \n ما پیام لازم را برای شما آماده کرده ایم،\n کافیست شماره موبایلی که با آن اکانت تلگرام را ساخته اید \n مانند نمونه در کادر زیر وارد کنید \n و سپس گزینه ارسال را زده و از طریق نرم افزارهایی مانند جیمیل یا یاهو متن آماده را بدون هیچ تغییراتی ارسال کنید. \n بعد از حدود یک تا دو هفته اکانت شما  از ریپورت خارج خواهد شد." android:layout_weight="0.13" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff4e4e4e" android:gravity="center" android:layout_gravity="center" android:id="@id/textView5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="شماره نمونه: \n 912*******" android:layout_weight="0.13" />
+            <EditText android:layout_gravity="center_horizontal" android:id="@id/num_field" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/find" android:background="#ff1fcbe2" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_margin="13.0dip">
+                <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/send" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="ارسال" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

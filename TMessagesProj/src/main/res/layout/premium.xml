@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.3">
+        <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:id="@id/Tex1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="یکبار خرید برای همیشه" android:layout_weight="1.0" />
+                <ImageView android:id="@id/imageView3232" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_cleaner" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:id="@id/Tex2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="مدیریت رسانه ها و فایلها به همراه جاروبرقی پیشرفته تل گرام" android:layout_weight="1.0" />
+                <ImageView android:id="@id/imageView312" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_cleaner" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:id="@id/Tex3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="جلوگیری از تبلیغات" android:layout_weight="1.0" />
+                <ImageView android:id="@id/imageView3" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_cleaner" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:id="@id/Tex4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="حمایت از برنامه نویس" android:layout_weight="1.0" />
+                <ImageView android:id="@id/imageView4" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_cleaner" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textColor="#ffffffff" android:layout_gravity="bottom|center" android:id="@id/normalbtn" android:background="#ffb09e9e" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="خریــــد" android:onClick="onSavedUpgradeAppButtonClicked" />
+    <ImageView android:id="@id/screen_wait" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" android:layout_below="@id/onlinebtn" android:layout_centerHorizontal="true" />
+</LinearLayout>

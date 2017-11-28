@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioGroup android:orientation="horizontal" android:id="@id/group1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+                <RadioButton android:textColor="@color/hockeyapp_text_black" android:layout_gravity="right" android:id="@id/radioButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:checked="true" android:button="@null" android:text="هر دو" android:drawableRight="?android:listChoiceIndicatorSingle" android:drawablePadding="8.0dip" android:layout_weight="1.0" />
+                <RadioButton android:textColor="@color/hockeyapp_text_black" android:layout_gravity="right" android:id="@id/radioButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:button="@null" android:text="زن" android:drawableRight="?android:listChoiceIndicatorSingle" android:drawablePadding="8.0dip" android:layout_weight="1.0" />
+                <RadioButton android:textColor="@color/hockeyapp_text_black" android:layout_gravity="right" android:id="@id/radioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:button="@null" android:text="مرد" android:drawableRight="?android:listChoiceIndicatorSingle" android:drawablePadding="8.0dip" android:layout_weight="1.0" />
+            </RadioGroup>
+            <RadioGroup android:id="@id/group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:layout_weight="1.0">
+                    <SeekBar android:id="@id/seekBar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" android:max="10" android:progress="0" android:layout_weight="1.0" />
+                    <TextView android:textColor="@android:color/black" android:id="@id/distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="تا 5 کیلومتر" />
+                    <RadioButton android:id="@id/r1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:checked="false" android:autoText="false" />
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:layout_weight="1.0">
+                    <Spinner android:id="@id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <RadioButton android:id="@id/r2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:checked="false" android:autoText="false" />
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:layout_weight="1.0">
+                    <RadioButton android:textColor="@color/hockeyapp_text_black" android:layout_gravity="right" android:id="@id/r3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:checked="true" android:button="@null" android:text="نزدیک ترین" android:drawableRight="?android:listChoiceIndicatorSingle" android:drawablePadding="8.0dip" />
+                </LinearLayout>
+            </RadioGroup>
+            <org.tellgram.view.RadarView android:layout_gravity="center_horizontal" android:id="@id/radarView" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_margin="10.0dip" />
+            <RadioGroup android:orientation="horizontal" android:id="@id/group3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+                <RadioButton android:textColor="@color/hockeyapp_text_black" android:layout_gravity="right" android:id="@id/radioButton5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:button="@null" android:text="زن هستم" android:drawableRight="?android:listChoiceIndicatorSingle" android:drawablePadding="8.0dip" android:layout_weight="1.0" />
+                <RadioButton android:textColor="@color/hockeyapp_text_black" android:layout_gravity="right" android:id="@id/radioButton4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:button="@null" android:text="مرد هستم" android:drawableRight="?android:listChoiceIndicatorSingle" android:drawablePadding="8.0dip" android:layout_weight="1.0" />
+            </RadioGroup>
+            <CheckBox android:id="@id/check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="هرکسی می تونه به من پیام بده" />
+            <Button android:textColor="@android:color/white" android:id="@id/search" android:background="@drawable/button_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="بگرد" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:id="@id/loader" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

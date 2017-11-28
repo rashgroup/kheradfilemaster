@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:id="@id/textView1" android:background="#ffff5722" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/note" android:lineSpacingExtra="10.0dip" />
+    <GridView android:id="@id/GridView1" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:numColumns="2" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="actionbar_button_bg">#00000000</item>
+    <item type="drawable" name="actionbar_button_pressed_bg">#60ffffff</item>
+    <item type="drawable" name="actionbar_button_selected_bg">#ccffcc00</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+</resources>

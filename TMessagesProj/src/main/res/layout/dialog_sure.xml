@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ff5522ff" android:id="@id/state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="30.0dip" android:text="TextView" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="3.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="#ff3498db" android:id="@id/taeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/clean" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/cancle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/cancle" />
+    </LinearLayout>
+</LinearLayout>

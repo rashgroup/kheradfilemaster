@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:app="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_settings_white" app:id="@id/menu_setting" app:orderInCategory="100" app:title="setting" apps:showAsAction="always" />
+</menu>
